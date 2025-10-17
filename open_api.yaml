@@ -380,11 +380,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | POST |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/merchant |
 
         | PreProd - UAT | POST |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/merchant |
 
 
@@ -857,11 +857,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | POST |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/shipment |
 
         | PreProd - UAT | POST |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/shipment |
 
 
@@ -1249,7 +1249,7 @@ paths:
         /api/v3/shipment?viewpoint=all&limit=10&page=1&sort=create_date |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/shipment?viewpoint=all&limit=10&page=1&sort=create_date |
 
 
@@ -1678,11 +1678,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | POST |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/shipment/print |
 
         | PreProd - UAT | POST |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/shipment/print |
 
 
@@ -1886,11 +1886,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | PUT |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/shipment/cancel/{TRACKING_NUMBER} |
 
         | PreProd - UAT | PUT |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/shipment/cancel/{TRACKING_NUMBER} |
 
 
@@ -2057,11 +2057,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/shipment/check-price |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/shipment/check-price |
       requestBody:
         content:
@@ -2207,12 +2207,12 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/shipment/check-address?postcode=64160&carrier_code=THAIPOST&limit=1000
         |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/shipment/check-address?postcode=64160&carrier_code=THAIPOST&limit=1000
         |
       parameters:
@@ -2253,11 +2253,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/wallet |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/wallet |
 
 
@@ -2449,11 +2449,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/wallet |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/wallet |
 
 
@@ -2593,11 +2593,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/carrier/list?limit=25 |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/carrier/list?limit=25 |
 
 
@@ -2715,11 +2715,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/pickup |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/pickup |
 
 
@@ -2796,11 +2796,11 @@ paths:
         | --- | --- | --- | --- |
 
         | Production | GET |
-        [https://api.goship.express](https://api.goship.express) |
+        [https://openapi.promptspeed.co.th](https://openapi.promptspeed.co.th) |
         /api/v3/pickup/{{pickup_id}}/cancel |
 
         | PreProd - UAT | GET |
-        [https://uat-api.goship.express](https://uat-api.goship.express) |
+        [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/pickup/{{pickup_id}}/cancel |
 
 
