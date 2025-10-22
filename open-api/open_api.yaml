@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Shipment Open API V3
+  title: Open API V3
   description: |-
     - Shipment Open API (V3.0.1) Last update 2024-10-01
         
