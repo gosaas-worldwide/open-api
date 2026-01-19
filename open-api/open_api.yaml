@@ -689,9 +689,9 @@ paths:
 
         | --- | --- | --- |
 
-        | KEX Express | KEX_SPEED | KEX Express (Orange API) |
+        | KEX Express | KEX_SPEED |  |
 
-        | KEX Express Online | KEXONLINE_SPEED | KEX ราคาเดียวทั่วประเทศ ขั้นต่ำ 3 ชิ้น/วัน |
+        | KEX Express Online | KEXONLINE_SPEED | KEX Online ขั้นต่ำ 3 ชิ้น/วัน |
 
         | KEX Fruit | KEXFRUIT_SPEED | ส่งผลไม้ KEX |
 
@@ -701,23 +701,23 @@ paths:
 
         | Post Sabuy Fruit | POSTSABUYFRUIT_SPEED | ส่งผลไม้ไปรษณีย์ไทย |
 
-        | Flash Express | FLASH_EXPRESS_SPEED | Flash Express |
+        | Flash Express | FLASH_EXPRESS_SPEED |  |
 
-        | Flash Bulky | FLASHBULKY_SPEED | Flash Bulky |
+        | Flash Bulky | FLASHBULKY_SPEED |  |
 
-        | DHL Premium | DHL_SPEED | DHL Next day |
+        | DHL Premium | DHL_SPEED |  |
 
-        | DHL Eco | DHLECO_SPEED | DHL Economy |
+        | DHL Eco | DHLECO_SPEED |  |
 
-        | J&T Express | J&T_EXPRESS_SPEED | J&T Express |
+        | J&T Express | J&T_EXPRESS_SPEED |  |
 
-        | Shopee Express | SPX_SPEED | Shopee Express (SPX) |
+        | Shopee Express | SPX_SPEED |  |
 
-        | Lazada Express | LAZADA_EXPRESS_SPEED | Lazada Express (LEX) |
+        | Lazada Express | LAZADA_EXPRESS_SPEED |  |
 
-        | Best Express | BEST_EXPRESS_SPEED | Best Express |
+        | Best Express | BEST_EXPRESS_SPEED |  |
 
-        | RTT | RTT_SPEED | RTT Express |
+        | RTT | RTT_SPEED |  |
 
 
         **\* สามารถใช้ Get Carrier List สำหรับดู Carrier ทั้งหมดในระบบได้**\*  
@@ -1503,9 +1503,9 @@ paths:
     post:
       tags:
         - Shipment - รายการจัดส่ง
-      summary: Print Label - ปริ้นใบปะหน้า 4x3
+      summary: Courier Code - รายการขนส่ง
       description: >-
-        **Print Label - ปริ้นใบปะหน้า 4x3**
+        **Courier Code - รายการขนส่ง**
 
 
         |  | **Method** | **Host** | **Path** |
@@ -1528,9 +1528,35 @@ paths:
 
         | --- | --- | --- |
 
-        | ไปรษณีย์ไทย | THAIPOST |  |
+        | KEX Express | KEX_SPEED |  |
 
-        |  |  |  |
+        | KEX Express Online | KEXONLINE_SPEED | KEX Online ขั้นต่ำ 3 ชิ้น/วัน |
+
+        | KEX Fruit | KEXFRUIT_SPEED | ส่งผลไม้ KEX |
+
+        | Thailand Post EMS | EMS_SPEED | ไปรษณีย์ไทย EMS |
+
+        | Post Sabuy | POSTSABUY_SPEED | ไปรษณีย์ไทย Post Sabuy |
+
+        | Post Sabuy Fruit | POSTSABUYFRUIT_SPEED | ส่งผลไม้ไปรษณีย์ไทย |
+
+        | Flash Express | FLASH_EXPRESS_SPEED |  |
+
+        | Flash Bulky | FLASHBULKY_SPEED |  |
+
+        | DHL Premium | DHL_SPEED |  |
+
+        | DHL Eco | DHLECO_SPEED |  |
+
+        | J&T Express | J&T_EXPRESS_SPEED |  |
+
+        | Shopee Express | SPX_SPEED |  |
+
+        | Lazada Express | LAZADA_EXPRESS_SPEED |  |
+
+        | Best Express | BEST_EXPRESS_SPEED |  |
+
+        | RTT | RTT_SPEED |  |
 
 
         **Request Body**
