@@ -1503,9 +1503,9 @@ paths:
     post:
       tags:
         - Shipment - รายการจัดส่ง
-      summary: Courier Code - รายการขนส่ง
+      summary: Print Label - ปริ้นใบปะหน้า 4x3
       description: >-
-        **Courier Code - รายการขนส่ง**
+        **Print Label - ปริ้นใบปะหน้า 4x3**
 
 
         |  | **Method** | **Host** | **Path** |
