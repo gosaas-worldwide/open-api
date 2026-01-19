@@ -501,112 +501,36 @@ paths:
                       create_date: '2024-09-24 06:56:12'
                       update_date: '2024-09-24 06:56:12'
                       carriers:
-                        - code: KERRY_EXPRESS
-                          name: Kerry Express
-                          description: Kerry Express
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2022-09-24 04:22:15'
-                        - code: FLASH_EXPRESS
-                          name: Flash Express
-                          description: Flash Express
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2024-03-27 11:53:37'
-                        - code: THAIPOST
-                          name: Thailand Post
-                          description: Thailand Post
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2023-11-08 06:31:21'
-                        - code: DHL_EXPRESS
-                          name: DHL Express Thailand
-                          description: DHL Express Thailand
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2022-12-07 08:08:32'
-                        - code: J&T_EXPRESS
-                          name: J&T Express Thailand
-                          description: J&T Express Thailand
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2022-09-24 04:33:37'
-                        - code: BEST_EXPRESS
-                          name: Best Express
-                          description: Best Express Thailand
-                          create_date: '2021-10-25 05:09:25'
-                          update_date: '2022-09-24 04:36:45'
-                        - code: SCG_EXPRESS
-                          name: SCG Express
-                          description: SCG Express Thailand
-                          create_date: '2021-10-25 05:09:25'
-                          update_date: '2021-10-25 05:09:25'
-                        - code: CJ_LOGISTIC
-                          name: CJ Logistics
-                          description: CJ Logistics Thailand
-                          create_date: '2021-10-25 05:09:25'
-                          update_date: '2021-11-22 08:16:01'
-                        - code: THAIPOST_ONE
-                          name: Thailand Post One
-                          description: Thailand Post One
-                          create_date: '2022-04-27 04:36:06'
-                          update_date: '2022-07-25 09:41:28'
-                        - code: THAIPOST_WORLD
-                          name: Thailand Post World
-                          description: Thailand Post World
-                          create_date: '2022-04-27 04:36:06'
-                          update_date: '2022-04-27 04:36:06'
-                        - code: NINJAVAN
-                          name: Ninjavan
-                          description: Ninjavan
-                          create_date: '2022-04-27 04:36:06'
-                          update_date: '2023-05-08 07:46:59'
-                        - code: KERRY_EXPRESS_SP
-                          name: Kerry Express(SP)
-                          description: Kerry Express(SP)
-                          create_date: '2022-07-08 05:24:55'
-                          update_date: '2022-07-25 01:49:24'
-                        - code: SHOPEE_EXPRESS
-                          name: Shopee Express
-                          description: Shopee Express
-                          create_date: '2022-08-26 06:23:09'
-                          update_date: '2023-10-31 07:09:28'
-                        - code: FUZE_POST_CHILLED
-                          name: Fuze Post Chilled
-                          description: >-
-                            การจัดส่งพัสดุแช่เย็น(Chilled) ควบคุมอุณหภูมิ 0-8
-                            องศาเซลเซียส ชำระค่าขนส่งผ่านระบบGoship เริ่มต้น 120
-                            บาท รองรับน้ำหนักสูงสุด 25 กิโลกรัม
-                          create_date: '2023-01-10 14:21:51'
-                          update_date: '2023-01-11 07:30:34'
-                        - code: FUZE_POST_FROZEN
-                          name: Fuze Post Frozen
-                          description: >-
-                            การจัดส่งพัสดุแช่แข็ง(Frozen) ควบคุมอุณหภูมิ -15
-                            องศาเซลเซียส ชำระค่าขนส่งผ่านระบบGoship เริ่มต้น 170
-                            บาท รองรับน้ำหนักสูงสุด 25 กิโลกรัม
-                          create_date: '2023-01-10 14:21:51'
-                          update_date: '2023-01-11 07:32:04'
-                        - code: FLASH_EXPRESS_BULKY
-                          name: Flash Express Bulky
-                          description: Flash Express Bulky
-                          create_date: '2023-02-08 02:32:45'
-                          update_date: '2023-05-08 04:31:04'
-                        - code: DHL_PDO
-                          name: DHL eCommerce (Next day)
-                          description: DHL eCommerce (Next day)
-                          create_date: '2023-09-12 11:16:01'
-                          update_date: '2023-09-12 12:20:54'
-                        - code: DHL_FFP
-                          name: DHL eCommerce (Temperature control)
-                          description: DHL eCommerce (Temperature control)
-                          create_date: '2023-09-12 11:16:01'
-                          update_date: '2023-11-15 06:54:29'
-                        - code: INTER_EXPRESS
-                          name: Inter Express
-                          description: Inter Express
-                          create_date: '2023-10-26 06:38:07'
-                          update_date: '2023-10-26 06:53:35'
-                        - code: FLASH_EXPRESS_SP
-                          name: Flash Express(SP)
-                          description: Flash Express(SP)
-                          create_date: '2024-01-15 05:56:14'
-                          update_date: '2024-01-15 06:30:53'
+                        - code: POST_SABUY
+                          name: Post Sabuy
+                          description: ไปรษณีย์ไทย - Post Sabuy
+                          create_date: '2024-09-24 06:56:12'
+                          update_date: '2024-09-24 06:56:12'
+                        - code: EMS
+                          name: EMS
+                          description: ไปรษณีย์ไทย - EMS
+                          create_date: '2024-09-24 06:56:12'
+                          update_date: '2024-09-24 06:56:12'
+                        - code: KEX
+                          name: KEX
+                          description: KEX Express
+                          create_date: '2024-09-24 06:56:12'
+                          update_date: '2024-09-24 06:56:12'
+                        - code: KEXONLINE
+                          name: KEXONLINE
+                          description: KEX Express Online
+                          create_date: '2024-09-24 06:56:12'
+                          update_date: '2024-09-24 06:56:12'
+                        - code: DHL
+                          name: DHL
+                          description: DHL Express
+                          create_date: '2024-09-24 06:56:12'
+                          update_date: '2024-09-24 06:56:12'
+                        - code: SABUYD
+                          name: SABUYD
+                          description: DHL - Sabuy D
+                          create_date: '2024-09-24 06:56:12'
+                          update_date: '2024-09-24 06:56:12'
                     timestamp: '2024-09-24 06:56:12'
                     request_id: df96368b45814b058810d5f7240e9773
                 example-1:
@@ -632,112 +556,36 @@ paths:
                       create_date: '2024-09-24 07:26:51'
                       update_date: '2024-09-24 07:26:51'
                       carriers:
-                        - code: KERRY_EXPRESS
-                          name: Kerry Express
-                          description: Kerry Express
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2022-09-24 04:22:15'
-                        - code: FLASH_EXPRESS
-                          name: Flash Express
-                          description: Flash Express
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2024-03-27 11:53:37'
-                        - code: THAIPOST
-                          name: Thailand Post
-                          description: Thailand Post
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2023-11-08 06:31:21'
-                        - code: DHL_EXPRESS
-                          name: DHL Express Thailand
-                          description: DHL Express Thailand
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2022-12-07 08:08:32'
-                        - code: J&T_EXPRESS
-                          name: J&T Express Thailand
-                          description: J&T Express Thailand
-                          create_date: '2021-10-11 04:39:10'
-                          update_date: '2022-09-24 04:33:37'
-                        - code: BEST_EXPRESS
-                          name: Best Express
-                          description: Best Express Thailand
-                          create_date: '2021-10-25 05:09:25'
-                          update_date: '2022-09-24 04:36:45'
-                        - code: SCG_EXPRESS
-                          name: SCG Express
-                          description: SCG Express Thailand
-                          create_date: '2021-10-25 05:09:25'
-                          update_date: '2021-10-25 05:09:25'
-                        - code: CJ_LOGISTIC
-                          name: CJ Logistics
-                          description: CJ Logistics Thailand
-                          create_date: '2021-10-25 05:09:25'
-                          update_date: '2021-11-22 08:16:01'
-                        - code: THAIPOST_ONE
-                          name: Thailand Post One
-                          description: Thailand Post One
-                          create_date: '2022-04-27 04:36:06'
-                          update_date: '2022-07-25 09:41:28'
-                        - code: THAIPOST_WORLD
-                          name: Thailand Post World
-                          description: Thailand Post World
-                          create_date: '2022-04-27 04:36:06'
-                          update_date: '2022-04-27 04:36:06'
-                        - code: NINJAVAN
-                          name: Ninjavan
-                          description: Ninjavan
-                          create_date: '2022-04-27 04:36:06'
-                          update_date: '2023-05-08 07:46:59'
-                        - code: KERRY_EXPRESS_SP
-                          name: Kerry Express(SP)
-                          description: Kerry Express(SP)
-                          create_date: '2022-07-08 05:24:55'
-                          update_date: '2022-07-25 01:49:24'
-                        - code: SHOPEE_EXPRESS
-                          name: Shopee Express
-                          description: Shopee Express
-                          create_date: '2022-08-26 06:23:09'
-                          update_date: '2023-10-31 07:09:28'
-                        - code: FUZE_POST_CHILLED
-                          name: Fuze Post Chilled
-                          description: >-
-                            การจัดส่งพัสดุแช่เย็น(Chilled) ควบคุมอุณหภูมิ 0-8
-                            องศาเซลเซียส ชำระค่าขนส่งผ่านระบบGoship เริ่มต้น 120
-                            บาท รองรับน้ำหนักสูงสุด 25 กิโลกรัม
-                          create_date: '2023-01-10 14:21:51'
-                          update_date: '2023-01-11 07:30:34'
-                        - code: FUZE_POST_FROZEN
-                          name: Fuze Post Frozen
-                          description: >-
-                            การจัดส่งพัสดุแช่แข็ง(Frozen) ควบคุมอุณหภูมิ -15
-                            องศาเซลเซียส ชำระค่าขนส่งผ่านระบบGoship เริ่มต้น 170
-                            บาท รองรับน้ำหนักสูงสุด 25 กิโลกรัม
-                          create_date: '2023-01-10 14:21:51'
-                          update_date: '2023-01-11 07:32:04'
-                        - code: FLASH_EXPRESS_BULKY
-                          name: Flash Express Bulky
-                          description: Flash Express Bulky
-                          create_date: '2023-02-08 02:32:45'
-                          update_date: '2023-05-08 04:31:04'
-                        - code: DHL_PDO
-                          name: DHL eCommerce (Next day)
-                          description: DHL eCommerce (Next day)
-                          create_date: '2023-09-12 11:16:01'
-                          update_date: '2023-09-12 12:20:54'
-                        - code: DHL_FFP
-                          name: DHL eCommerce (Temperature control)
-                          description: DHL eCommerce (Temperature control)
-                          create_date: '2023-09-12 11:16:01'
-                          update_date: '2023-11-15 06:54:29'
-                        - code: INTER_EXPRESS
-                          name: Inter Express
-                          description: Inter Express
-                          create_date: '2023-10-26 06:38:07'
-                          update_date: '2023-10-26 06:53:35'
-                        - code: FLASH_EXPRESS_SP
-                          name: Flash Express(SP)
-                          description: Flash Express(SP)
-                          create_date: '2024-01-15 05:56:14'
-                          update_date: '2024-01-15 06:30:53'
+                        - code: POST_SABUY
+                          name: Post Sabuy
+                          description: ไปรษณีย์ไทย - Post Sabuy
+                          create_date: '2024-09-24 07:26:51'
+                          update_date: '2024-09-24 07:26:51'
+                        - code: EMS
+                          name: EMS
+                          description: ไปรษณีย์ไทย - EMS
+                          create_date: '2024-09-24 07:26:51'
+                          update_date: '2024-09-24 07:26:51'
+                        - code: KEX
+                          name: KEX
+                          description: KEX Express
+                          create_date: '2024-09-24 07:26:51'
+                          update_date: '2024-09-24 07:26:51'
+                        - code: KEXONLINE
+                          name: KEXONLINE
+                          description: KEX Express Online
+                          create_date: '2024-09-24 07:26:51'
+                          update_date: '2024-09-24 07:26:51'
+                        - code: DHL
+                          name: DHL
+                          description: DHL Express
+                          create_date: '2024-09-24 07:26:51'
+                          update_date: '2024-09-24 07:26:51'
+                        - code: SABUYD
+                          name: SABUYD
+                          description: DHL - Sabuy D
+                          create_date: '2024-09-24 07:26:51'
+                          update_date: '2024-09-24 07:26:51'
                     timestamp: '2024-09-24 07:26:51'
                     request_id: 12d8be7fbb4a4148958bd47365ce9850
         '400':
@@ -841,17 +689,35 @@ paths:
 
         | --- | --- | --- |
 
-        | Thailand Post | THAIPOST | ไปรษณีย์ไทย |
+        | KEX Express | KEX_SPEED | KEX Express (Orange API) |
 
-        | DHL Express (Next day) | DHL_PDO | DHL แบบส่ง 1-2 วัน |
+        | KEX Express Online | KEXONLINE_SPEED | KEX ราคาเดียวทั่วประเทศ ขั้นต่ำ 3 ชิ้น/วัน |
 
-        | DHL Express (Economy) | DHL_EXPRESS | DHL แบบส่ง 3-5 วัน |
+        | KEX Fruit | KEXFRUIT_SPEED | ส่งผลไม้ KEX |
 
-        | Kerry Express | KERRY_EXPRESS_SP |  |
+        | Thailand Post EMS | EMS_SPEED | ไปรษณีย์ไทย EMS |
 
-        | Flash Express | FLASH_EXPRESS_SP |  |
+        | Post Sabuy | POSTSABUY_SPEED | ไปรษณีย์ไทย Post Sabuy |
 
-        | Shopee Express | SHOPEE_EXPRESS |  |
+        | Post Sabuy Fruit | POSTSABUYFRUIT_SPEED | ส่งผลไม้ไปรษณีย์ไทย |
+
+        | Flash Express | FLASH_EXPRESS_SPEED | Flash Express |
+
+        | Flash Bulky | FLASHBULKY_SPEED | Flash Bulky |
+
+        | DHL Premium | DHL_SPEED | DHL Next day |
+
+        | DHL Eco | DHLECO_SPEED | DHL Economy |
+
+        | J&T Express | J&T_EXPRESS_SPEED | J&T Express |
+
+        | Shopee Express | SPX_SPEED | Shopee Express (SPX) |
+
+        | Lazada Express | LAZADA_EXPRESS_SPEED | Lazada Express (LEX) |
+
+        | Best Express | BEST_EXPRESS_SPEED | Best Express |
+
+        | RTT | RTT_SPEED | RTT Express |
 
 
         **\* สามารถใช้ Get Carrier List สำหรับดู Carrier ทั้งหมดในระบบได้**\*  
@@ -866,7 +732,7 @@ paths:
 
         | --- | --- | --- | --- |
 
-        | carrier_code | required | string | รหัสขนส่ง เช่น THAIPOST |
+        | carrier_code | required | string | รหัสขนส่ง เช่น KEX_SPEED |
 
         | box_width |  | float | ความกว้าง (cm)  <br>ค่าเริ่มต้น=1 |
 
@@ -977,7 +843,7 @@ paths:
             schema:
               type: object
               example:
-                carrier_code: FLASH_EXPRESS_SP
+                carrier_code: KEX_SPEED
                 box_width: 1
                 box_height: 1
                 box_length: 1
@@ -1327,7 +1193,7 @@ paths:
               example:
                 data:
                   - tracking_number: EB848789142TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1360,7 +1226,7 @@ paths:
                     create_date: '2024-09-25 02:39:22'
                     update_date: '2024-09-25 02:39:22'
                   - tracking_number: EB848789139TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1393,7 +1259,7 @@ paths:
                     create_date: '2024-09-25 02:38:58'
                     update_date: '2024-09-25 02:38:58'
                   - tracking_number: EB848789125TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1426,7 +1292,7 @@ paths:
                     create_date: '2024-09-25 02:38:18'
                     update_date: '2024-09-25 02:38:18'
                   - tracking_number: EB848789111TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1459,7 +1325,7 @@ paths:
                     create_date: '2024-09-24 16:31:35'
                     update_date: '2024-09-24 16:31:35'
                   - tracking_number: EB848789108TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1492,7 +1358,7 @@ paths:
                     create_date: '2024-09-24 16:25:22'
                     update_date: '2024-09-24 16:25:22'
                   - tracking_number: EB848789099TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1525,7 +1391,7 @@ paths:
                     create_date: '2024-09-24 14:34:43'
                     update_date: '2024-09-24 14:34:43'
                   - tracking_number: EB848789085TH
-                    carrier_code: THAIPOST
+                    carrier_code: POSTSABUY_SPEED
                     status: waiting
                     box_height: '0.0000'
                     box_length: '200.0000'
@@ -1676,7 +1542,7 @@ paths:
 
         | show_order |  | string | ค่ารายการสินค้า 0=ไม่,1=แสดง |
 
-        | carrier_code | required | string | รหัสขนส่ง เช่น THAIPOST |
+        | carrier_code | required | string | รหัสขนส่ง เช่น KEX_SPEED |
 
         | tracking_number | required | array | หมายเลขพัสดุ |
 
@@ -1700,7 +1566,7 @@ paths:
               type: object
               example:
                 show_order: 1
-                carrier_code: FLASH_EXPRESS_SP
+                carrier_code: KEX_SPEED
                 tracking_number:
                   - TH01167RZ72Z5A
       responses:
@@ -2098,8 +1964,8 @@ paths:
                 type: object
               example:
                 data:
-                  - carrier: DHL Express Thailand
-                    carrier_code: DHL_EXPRESS
+                  - carrier: KEX Express
+                    carrier_code: KEX_SPEED
                     remote_price: '0.0000'
                     tourism_price: '0.0000'
                     island_price: '0.0000'
@@ -2107,53 +1973,26 @@ paths:
                     total: '15.0000'
                     is_pickup: 1
                     delivery_time: 1 - 2 days
-                  - carrier: Shopee Express
-                    carrier_code: SHOPEE_EXPRESS
+                  - carrier: KEX Express Online
+                    carrier_code: KEXONLINE_SPEED
                     remote_price: '0.0000'
                     tourism_price: '0.0000'
                     island_price: '0.0000'
-                    price: '20.0000'
-                    total: '20.0000'
-                    is_pickup: 0
-                    delivery_time: 1 - 30 days
-                  - carrier: Flash Express(SP)
-                    carrier_code: FLASH_EXPRESS_SP
-                    remote_price: '0.0000'
-                    tourism_price: '0.0000'
-                    island_price: '0.0000'
-                    price: '20.0000'
-                    total: '20.0000'
+                    price: '18.0000'
+                    total: '18.0000'
                     is_pickup: 0
                     delivery_time: 1 - 2 days
-                  - carrier: BS Express
-                    carrier_code: BS_EXPRESS
+                  - carrier: KEX Fruit
+                    carrier_code: KEXFRUIT_SPEED
                     remote_price: '0.0000'
                     tourism_price: '0.0000'
                     island_price: '0.0000'
-                    price: '20.0000'
-                    total: '20.0000'
-                    is_pickup: 0
-                    delivery_time: 1 - 5 days
-                  - carrier: Kerry Express(SP)
-                    carrier_code: KERRY_EXPRESS_SP
-                    remote_price: '0.0000'
-                    tourism_price: '0.0000'
-                    island_price: '0.0000'
-                    price: '24.0000'
-                    total: '24.0000'
+                    price: '25.0000'
+                    total: '25.0000'
                     is_pickup: 1
-                    delivery_time: 1 - 5 days
-                  - carrier: DHL eCommerce (Next day)
-                    carrier_code: DHL_PDO
-                    remote_price: '0.0000'
-                    tourism_price: '0.0000'
-                    island_price: '0.0000'
-                    price: '30.0000'
-                    total: '30.0000'
-                    is_pickup: 0
-                    delivery_time: 1 - 2 days
-                  - carrier: Thailand Post
-                    carrier_code: THAIPOST
+                    delivery_time: 2 - 3 days
+                  - carrier: Thailand Post EMS
+                    carrier_code: EMS_SPEED
                     remote_price: '0.0000'
                     tourism_price: '0.0000'
                     island_price: '0.0000'
@@ -2161,6 +2000,105 @@ paths:
                     total: '35.0000'
                     is_pickup: 0
                     delivery_time: 1 - 3 days
+                  - carrier: Post Sabuy
+                    carrier_code: POSTSABUY_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '25.0000'
+                    total: '25.0000'
+                    is_pickup: 0
+                    delivery_time: 2 - 3 days
+                  - carrier: Post Sabuy Fruit
+                    carrier_code: POSTSABUYFRUIT_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '30.0000'
+                    total: '30.0000'
+                    is_pickup: 0
+                    delivery_time: 2 - 4 days
+                  - carrier: Flash Express
+                    carrier_code: FLASH_EXPRESS_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '18.0000'
+                    total: '18.0000'
+                    is_pickup: 1
+                    delivery_time: 1 - 2 days
+                  - carrier: Flash Bulky
+                    carrier_code: FLASHBULKY_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '22.0000'
+                    total: '22.0000'
+                    is_pickup: 1
+                    delivery_time: 2 - 4 days
+                  - carrier: DHL Premium
+                    carrier_code: DHL_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '28.0000'
+                    total: '28.0000'
+                    is_pickup: 1
+                    delivery_time: 1 - 2 days
+                  - carrier: DHL Eco
+                    carrier_code: DHLECO_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '24.0000'
+                    total: '24.0000'
+                    is_pickup: 1
+                    delivery_time: 1 - 3 days
+                  - carrier: J&T Express
+                    carrier_code: J&T_EXPRESS_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '20.0000'
+                    total: '20.0000'
+                    is_pickup: 0
+                    delivery_time: 1 - 3 days
+                  - carrier: Shopee Express
+                    carrier_code: SPX_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '20.0000'
+                    total: '20.0000'
+                    is_pickup: 0
+                    delivery_time: 1 - 3 days
+                  - carrier: Lazada Express
+                    carrier_code: LAZADA_EXPRESS_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '20.0000'
+                    total: '20.0000'
+                    is_pickup: 0
+                    delivery_time: 1 - 3 days
+                  - carrier: Best Express
+                    carrier_code: BEST_EXPRESS_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '19.0000'
+                    total: '19.0000'
+                    is_pickup: 0
+                    delivery_time: 2 - 4 days
+                  - carrier: RTT
+                    carrier_code: RTT_SPEED
+                    remote_price: '0.0000'
+                    tourism_price: '0.0000'
+                    island_price: '0.0000'
+                    price: '21.0000'
+                    total: '21.0000'
+                    is_pickup: 0
+                    delivery_time: 2 - 3 days
                 request_id: 6b05b7a13c444edb994221d8d133dc1a
   /api/v3/shipment/check-address:
     get:
@@ -2632,30 +2570,51 @@ paths:
                 type: object
               example:
                 data:
-                  - name: Thailand Post
-                    description: Thailand Post
-                    code: THAIPOST
-                  - name: DHL Express Thailand
-                    description: DHL Express Thailand
-                    code: DHL_EXPRESS
-                  - name: J&T Express Thailand
-                    description: J&T Express Thailand
-                    code: J&T_EXPRESS
-                  - name: Kerry Express(SP)
-                    description: Kerry Express(SP)
-                    code: KERRY_EXPRESS_SP
+                  - name: KEX Express
+                    description: KEX Express (Orange API)
+                    code: KEX_SPEED
+                  - name: KEX Express Online
+                    description: KEX ราคาเดียวทั่วประเทศ ขั้นต่ำ 3 ชิ้น/วัน
+                    code: KEXONLINE_SPEED
+                  - name: KEX Fruit
+                    description: ส่งผลไม้ KEX
+                    code: KEXFRUIT_SPEED
+                  - name: Thailand Post EMS
+                    description: ไปรษณีย์ไทย EMS
+                    code: EMS_SPEED
+                  - name: Post Sabuy
+                    description: ไปรษณีย์ไทย Post Sabuy
+                    code: POSTSABUY_SPEED
+                  - name: Post Sabuy Fruit
+                    description: ส่งผลไม้ไปรษณีย์ไทย
+                    code: POSTSABUYFRUIT_SPEED
+                  - name: Flash Express
+                    description: Flash Express
+                    code: FLASH_EXPRESS_SPEED
+                  - name: Flash Bulky
+                    description: Flash Bulky
+                    code: FLASHBULKY_SPEED
+                  - name: DHL Premium
+                    description: DHL Next day
+                    code: DHL_SPEED
+                  - name: DHL Eco
+                    description: DHL Economy
+                    code: DHLECO_SPEED
+                  - name: J&T Express
+                    description: J&T Express
+                    code: J&T_EXPRESS_SPEED
                   - name: Shopee Express
-                    description: Shopee Express
-                    code: SHOPEE_EXPRESS
-                  - name: DHL eCommerce (Next day)
-                    description: DHL eCommerce (Next day)
-                    code: DHL_PDO
-                  - name: Flash Express(SP)
-                    description: Flash Express(SP)
-                    code: FLASH_EXPRESS_SP
-                  - name: BS Express
-                    description: ''
-                    code: BS_EXPRESS
+                    description: Shopee Express (SPX)
+                    code: SPX_SPEED
+                  - name: Lazada Express
+                    description: Lazada Express (LEX)
+                    code: LAZADA_EXPRESS_SPEED
+                  - name: Best Express
+                    description: Best Express
+                    code: BEST_EXPRESS_SPEED
+                  - name: RTT
+                    description: RTT Express
+                    code: RTT_SPEED
                 links:
                   first: http://uat-api.getshipment.co/api/v3/carrier/list?page=1
                   last: http://uat-api.getshipment.co/api/v3/carrier/list?page=1
@@ -2667,8 +2626,8 @@ paths:
                   last_page: 1
                   path: http://uat-api.getshipment.co/api/v3/carrier/list
                   per_page: 100
-                  to: 8
-                  total: 8
+                  to: 15
+                  total: 15
                 request_id: a9deb8954e1c4a939901c445f985c388
   /api/v3/pickup:
     post:
@@ -2699,7 +2658,7 @@ paths:
 
         | --- | --- | --- | --- |
 
-        | carrier_code | required | string | "FLASH_EXPRESS_SP" |
+        | carrier_code | required | string | "FLASH_EXPRESS_SPEED" |
 
         | warehouse_no | required | string | เลขของ Warehouse "001" |
 
@@ -2736,7 +2695,7 @@ paths:
             schema:
               type: object
               example:
-                carrier_code: FLASH_EXPRESS_SP
+                carrier_code: KEX_SPEED
                 warehouse_no: '001'
                 fullname: fullname
                 address: 442 หมู่ที่ 8 ตำบลหน้าไม้
