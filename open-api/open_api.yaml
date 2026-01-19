@@ -1524,39 +1524,39 @@ paths:
         **Courier Code - รายการขนส่ง**
 
 
-        | ชื่อขนส่ง (courier name) | รหัสขนส่ง ( courier code ) | **Note** |
+        | ชื่อขนส่ง (courier name) | รหัสขนส่ง ( courier code ) |
 
-        | --- | --- | --- |
+        | --- | --- |
 
-        | KEX Express | KEX_SPEED |  |
+        | KEX Express | KEX_SPEED |
 
-        | KEX Express Online | KEXONLINE_SPEED | KEX Online ขั้นต่ำ 3 ชิ้น/วัน |
+        | KEX Express Online | KEXONLINE_SPEED |
 
-        | KEX Fruit | KEXFRUIT_SPEED | ส่งผลไม้ KEX |
+        | KEX Fruit | KEXFRUIT_SPEED |
 
-        | Thailand Post EMS | EMS_SPEED | ไปรษณีย์ไทย EMS |
+        | Thailand Post EMS | EMS_SPEED |
 
-        | Post Sabuy | POSTSABUY_SPEED | ไปรษณีย์ไทย Post Sabuy |
+        | Post Sabuy | POSTSABUY_SPEED |
 
-        | Post Sabuy Fruit | POSTSABUYFRUIT_SPEED | ส่งผลไม้ไปรษณีย์ไทย |
+        | Post Sabuy Fruit | POSTSABUYFRUIT_SPEED |
 
-        | Flash Express | FLASH_EXPRESS_SPEED |  |
+        | Flash Express | FLASH_EXPRESS_SPEED |
 
-        | Flash Bulky | FLASHBULKY_SPEED |  |
+        | Flash Bulky | FLASHBULKY_SPEED |
 
-        | DHL Premium | DHL_SPEED |  |
+        | DHL Premium | DHL_SPEED |
 
-        | DHL Eco | DHLECO_SPEED |  |
+        | DHL Eco | DHLECO_SPEED |
 
-        | J&T Express | J&T_EXPRESS_SPEED |  |
+        | J&T Express | J&T_EXPRESS_SPEED |
 
-        | Shopee Express | SPX_SPEED |  |
+        | Shopee Express | SPX_SPEED |
 
-        | Lazada Express | LAZADA_EXPRESS_SPEED |  |
+        | Lazada Express | LAZADA_EXPRESS_SPEED |
 
-        | Best Express | BEST_EXPRESS_SPEED |  |
+        | Best Express | BEST_EXPRESS_SPEED |
 
-        | RTT | RTT_SPEED |  |
+        | RTT | RTT_SPEED |
 
 
         **Request Body**
@@ -2532,6 +2532,44 @@ paths:
         | PreProd - UAT | GET |
         [https://openapi-uat.promptspeed.co.th](https://openapi-uat.promptspeed.co.th) |
         /api/v3/carrier/list?limit=25 |
+
+
+        **Courier Code - รายการขนส่ง**
+
+
+        | ชื่อขนส่ง (courier name) | รหัสขนส่ง ( courier code ) | **Note** |
+
+        | --- | --- | --- |
+
+        | KEX Express | KEX_SPEED |  |
+
+        | KEX Express Online | KEXONLINE_SPEED | KEX Online ขั้นต่ำ 3 ชิ้น/วัน |
+
+        | KEX Fruit | KEXFRUIT_SPEED | ส่งผลไม้ KEX |
+
+        | Thailand Post EMS | EMS_SPEED | ไปรษณีย์ไทย EMS |
+
+        | Post Sabuy | POSTSABUY_SPEED | ไปรษณีย์ไทย Post Sabuy |
+
+        | Post Sabuy Fruit | POSTSABUYFRUIT_SPEED | ส่งผลไม้ไปรษณีย์ไทย |
+
+        | Flash Express | FLASH_EXPRESS_SPEED |  |
+
+        | Flash Bulky | FLASHBULKY_SPEED |  |
+
+        | DHL Premium | DHL_SPEED |  |
+
+        | DHL Eco | DHLECO_SPEED |  |
+
+        | J&T Express | J&T_EXPRESS_SPEED |  |
+
+        | Shopee Express | SPX_SPEED |  |
+
+        | Lazada Express | LAZADA_EXPRESS_SPEED |  |
+
+        | Best Express | BEST_EXPRESS_SPEED |  |
+
+        | RTT | RTT_SPEED |  |
 
 
         **Response Status Code**
