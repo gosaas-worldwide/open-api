@@ -1934,6 +1934,8 @@ paths:
                 box_height: 9
                 box_length: 20
                 box_weight: 200
+                carriers_code:
+                  - EMS_SPEED
                 origin:
                   county: ท่าแร้ง
                   city: บางเขน
@@ -2973,7 +2975,7 @@ paths:
 
         | data.price_surcharge | required | objecs |  |
 
-        | data.price_surcharge.type | required | string | deposit=ฝาก |
+        | data.price_surcharge.type | required | string | deposit=ฝาก <br> withdraw=ถอน  |
 
         | data.price_surcharge.price | required | float | ราคาค่าส่ง เริ่มต้น
         1.0000 |
