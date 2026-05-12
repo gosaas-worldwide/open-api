@@ -2946,6 +2946,16 @@ paths:
         |
 
 
+        ---
+
+
+        ### Event: shipment.price
+
+
+        Webhook ส่งข้อมูลราคาค่าจัดส่งจริง (Actual Rate) ไปยัง Partner URL
+        หลังจากคำนวณราคาเสร็จสิ้น
+
+
         **Response Body**
 
 
@@ -2953,32 +2963,25 @@ paths:
 
         | --- | --- | --- | --- |
 
+        | partner_id | required | integer | Partner ID |
+
+        | callback_version | required | string | เวอร์ชัน callback (เช่น v3) |
+
         | url | required | string | Partner URL |
 
-        | event | required | string | shipment.waiting=รอดำเนินการ 
-        <br>shipment.on_delivery=กำลังจัดส่ง 
-        <br>shipment.delivered=จัดส่งสำเร็จ  <br>shipment.on_return=กำลังตีกลับ 
-        <br>shipment.returned=ตีกลับสำเร็จ  <br>shipment.claimed=ส่ง Claim 
-        <br>shipment.canceled=ยกเลิก  <br>shipment.closed = ปิด(พัสดุมีปัญหา) |
+        | event | required | string | shipment.price |
 
-        | object | required | string | Shipment |
+        | object | required | string | shipment |
 
         | merchant_code | required | string | รหัสร้านค้า  <br>(เช่น MC21000005)
         |
 
-        | data | required | objecs |  |
+        | data | required | object |  |
 
         | data.tracking_number | required | string | เลขแทรกพัสดุ  <br>(เช่น
         TH0123658SPN2B) |
 
         | data.carrier | required | string | รหัสขนส่ง  <br>(เช่น THAIPOST) |
-
-        | data.price_surcharge | required | objecs |  |
-
-        | data.price_surcharge.type | required | string | deposit=ฝาก <br> withdraw=ถอน  |
-
-        | data.price_surcharge.price | required | float | ราคาค่าส่ง เริ่มต้น
-        1.0000 |
 
         | data.weight | required | float | น้ำหนักพัสดุ (g) |
 
@@ -2988,7 +2991,113 @@ paths:
 
         | data.height | required | float | ความสูงพัสดุ (cm) |
 
-        | data.updated | required | string | Update ล่าสุดวัน/เวลา (GMT+7) |
+        | data.updated | required | string | Update ล่าสุดวัน/เวลา (ISO 8601)
+        |
+
+        | data.price_surcharge | optional | object | ข้อมูลค่าส่ง (ส่งเฉพาะเมื่อมี
+        Transaction) |
+
+        | data.price_surcharge.type | required | string | deposit=ฝาก <br>
+        withdraw=ถอน |
+
+        | data.price_surcharge.price | required | float | ราคาค่าส่ง เริ่มต้น
+        1.0000 |
+
+
+        ---
+
+
+        ### Event: shipment.company_price
+
+
+        Webhook ส่งข้อมูลราคาค่าจัดส่งจริงสำหรับ Company Rate ไปยัง Partner URL
+        (ส่งเฉพาะเมื่อมีการตั้งค่า Company Rate)
+
+
+        **Response Body**
+
+
+        | Name ( Parameter ) | Optional | Type | Description |
+
+        | --- | --- | --- | --- |
+
+        | partner_id | required | integer | Partner ID |
+
+        | callback_version | required | string | เวอร์ชัน callback (เช่น v3) |
+
+        | url | required | string | Partner URL |
+
+        | event | required | string | shipment.company_price |
+
+        | object | required | string | shipment |
+
+        | merchant_code | required | string | รหัสร้านค้า  <br>(เช่น MC21000005)
+        |
+
+        | data | required | object |  |
+
+        | data.tracking_number | required | string | เลขแทรกพัสดุ  <br>(เช่น
+        TH0123658SPN2B) |
+
+        | data.carrier | required | string | รหัสขนส่ง  <br>(เช่น THAIPOST) |
+
+        | data.company_id | required | integer | Company ID |
+
+        | data.rate_version_id | required | integer | Rate Version ID |
+
+        | data.per_txn_margin | required | float | ค่า margin ต่อ transaction |
+
+        | data.price | required | float | ราคาค่าส่ง |
+
+        | data.cod_price | required | float | ค่า COD |
+
+        | data.cod_tax | required | float | ภาษี COD |
+
+        | data.cod_price_before_vat | required | float | ค่า COD ก่อน VAT |
+
+        | data.cod_price_vat | required | float | VAT ของค่า COD |
+
+        | data.remote_price | required | float | ค่าพื้นที่ห่างไกล (default: 0) |
+
+        | data.tourism_price | required | float | ค่าพื้นที่ท่องเที่ยว (default:
+        0) |
+
+        | data.on_holiday_price | required | float | ค่าวันหยุด (default: 0) |
+
+        | data.warranty_price | required | float | ค่าประกัน (default: 0) |
+
+        | data.island_price | required | float | ค่าพื้นที่เกาะ (default: 0) |
+
+        | data.is_same_province | required | boolean | จัดส่งในจังหวัดเดียวกัน |
+
+        | data.use_rate_calculate | required | string | วิธีคำนวณราคา |
+
+        | data.origin_region_name | required | string | ชื่อภูมิภาคต้นทาง |
+
+        | data.destination_region_name | required | string | ชื่อภูมิภาคปลายทาง
+        |
+
+        | data.price_surcharge | optional | object | ข้อมูลค่าส่ง (ส่งเฉพาะเมื่อมี
+        Transaction) |
+
+        | data.price_surcharge.type | required | string | deposit=ฝาก <br>
+        withdraw=ถอน |
+
+        | data.price_surcharge.price | required | float | ราคาค่าส่ง |
+
+        | data.weight | required | float | น้ำหนักพัสดุ (g) |
+
+        | data.width | required | float | ความกว้างพัสดุ (cm) |
+
+        | data.length | required | float | ความยาวพัสดุ (cm) |
+
+        | data.height | required | float | ความสูงพัสดุ (cm) |
+
+        | data.updated | required | string | Update ล่าสุดวัน/เวลา (ISO 8601)
+        |
+
+
+        ---
 
 
         **Response Status Code**
@@ -3006,22 +3115,64 @@ paths:
           application/json:
             schema:
               type: object
-              example:
-                url: http://partner-domain.com/path-price
-                event: shipment.price
-                object: shipment
-                merchant_code: MC21000005
-                data:
-                  tracking_number: TH0123658SPN2B
-                  carrier: THAIPOST
-                  price_surcharge:
-                    type: deposit
-                    price: 1
-                  weight: 10
-                  width: 10
-                  length: 10
-                  height: 10
-                  updated: '2024-09-26T06:23:09+00:00'
+              examples:
+                shipment_price:
+                  summary: 'Event: shipment.price'
+                  value:
+                    partner_id: 1
+                    callback_version: v3
+                    url: http://partner-domain.com/path-price
+                    event: shipment.price
+                    object: shipment
+                    merchant_code: MC21000005
+                    data:
+                      tracking_number: TH0123658SPN2B
+                      carrier: THAIPOST
+                      weight: 1500
+                      width: 10
+                      length: 20
+                      height: 15
+                      updated: '2024-09-26T06:23:09+00:00'
+                      price_surcharge:
+                        type: deposit
+                        price: 50.0000
+                shipment_company_price:
+                  summary: 'Event: shipment.company_price'
+                  value:
+                    partner_id: 1
+                    callback_version: v3
+                    url: http://partner-domain.com/path-price
+                    event: shipment.company_price
+                    object: shipment
+                    merchant_code: MC21000005
+                    data:
+                      tracking_number: TH0123658SPN2B
+                      carrier: THAIPOST
+                      company_id: 5
+                      rate_version_id: 12
+                      per_txn_margin: 2.5000
+                      price: 50.0000
+                      cod_price: 15.0000
+                      cod_tax: 1.0500
+                      cod_price_before_vat: 14.0187
+                      cod_price_vat: 0.9813
+                      remote_price: 0
+                      tourism_price: 0
+                      on_holiday_price: 0
+                      warranty_price: 0
+                      island_price: 0
+                      is_same_province: false
+                      use_rate_calculate: WEIGHT
+                      origin_region_name: กรุงเทพฯ และปริมณฑล
+                      destination_region_name: ภาคกลาง
+                      price_surcharge:
+                        type: deposit
+                        price: 50.0000
+                      weight: 1500
+                      width: 10
+                      length: 20
+                      height: 15
+                      updated: '2024-09-26T06:23:09+00:00'
       responses:
         '200':
           description: Successful response
